@@ -341,7 +341,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="dashBoardCollectionViewCell" id="MwB-za-SAf" customClass="DashBoardCollectionViewCell" customModule="MyFormulaApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="188" height="230"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="230"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="187.5" height="230"/>
@@ -386,7 +386,7 @@
                                         </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="OV2-1p-LCd">
-                                        <rect key="frame" x="188" y="0.0" width="187" height="230"/>
+                                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="230"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="187.5" height="230"/>
