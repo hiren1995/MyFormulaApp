@@ -60,6 +60,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
         
         FirebaseApp.configure()
+        
+        if(userDefault.value(forKey: DeviceToken) != nil)
+        {
+            RegisterUser()
+        }
  
         //GADMobileAds.configure(withApplicationID: "ca-app-pub-9129713665694143/8673828143")
         
@@ -85,12 +90,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
            
             userDefault.set(refreshedToken, forKey: DeviceToken)
             
+            RegisterUser()
             
-            let story = UIStoryboard(name: "Main", bundle: nil)
+            //let story = UIStoryboard(name: "Main", bundle: nil)
             
-            let splashViewController = story.instantiateViewController(withIdentifier: "splashViewController") as! SplashViewController
+            //let splashViewController = story.instantiateViewController(withIdentifier: "splashViewController") as! SplashViewController
             
-            self.window?.rootViewController = splashViewController
+            //self.window?.rootViewController = splashViewController
             
         }
         connectToFcm()
@@ -115,11 +121,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
         userDefault.set(fcmToken, forKey: DeviceToken)
         
-        let story = UIStoryboard(name: "Main", bundle: nil)
+        RegisterUser()
         
-        let splashViewController = story.instantiateViewController(withIdentifier: "splashViewController") as! SplashViewController
+        //let story = UIStoryboard(name: "Main", bundle: nil)
         
-        self.window?.rootViewController = splashViewController
+        //let splashViewController = story.instantiateViewController(withIdentifier: "splashViewController") as! SplashViewController
+        
+        //self.window?.rootViewController = splashViewController
         
     }
     
@@ -188,7 +196,51 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     //--------------------------------------- Push Notification module End ---------------------------------------------------------------------------------------------------
     
     
-    
+    func RegisterUser()
+    {
+        
+        userDefault.set(UIDevice.current.identifierForVendor?.uuidString, forKey: deviceId)
+        
+        var registerParameter = Parameters()
+        
+       
+        registerParameter = ["device_id": userDefault.value(forKey: deviceId) as! String,"device_type":2,"device_token": userDefault.value(forKey: DeviceToken) as! String]
+       
+        
+        print(registerParameter)
+        
+        Alamofire.request(registerAPI, method: .post, parameters: registerParameter, encoding: URLEncoding.default, headers: nil).responseJSON(completionHandler: { (response) in
+            if(response.result.value != nil)
+            {
+                
+                print(JSON(response.result.value))
+                
+                let tempDict = JSON(response.result.value!)
+                
+                if(tempDict["status_code"].intValue == 0 || tempDict["status_code"].intValue == 1)
+                {
+                   
+                    let story = UIStoryboard(name: "Main", bundle: nil)
+                    
+                    let slideViewController = story.instantiateViewController(withIdentifier: "slideViewController") as! SlideViewController
+                    
+                    self.window?.rootViewController = slideViewController
+                }
+                    
+                else
+                {
+                    //Spinner.hide(animated: true)
+                    //self.showAlert(title: "Alert", message: "Something went wrong!.Please try again")
+                }
+            }
+            else
+            {
+                //Spinner.hide(animated: true)
+                //self.showAlert(title: "Alert", message: "Something went wrong! Please Check Your Internet Connection")
+            }
+            
+        })
+    }
     
     
     

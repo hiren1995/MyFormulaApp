@@ -17,60 +17,19 @@ import Firebase
 import FirebaseInstanceID
 import FirebaseMessaging
 
-import GoogleMobileAds
-
-class SplashViewController: UIViewController,GADInterstitialDelegate {
+class SplashViewController: UIViewController{
 
     var interstitial: GADInterstitial!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       RegisterUser()
+       //RegisterUser()
     
-        //interstitial = createAndLoadInterstitial()
-        
         // Do any additional setup after loading the view.
     }
    
-    //------------------- Google Interstetial Ads --------------------------
-    
-    private func createAndLoadInterstitial() -> GADInterstitial? {
-        
-        interstitial = GADInterstitial(adUnitID: "ca-app-pub-8501671653071605/2568258533")
-        
-        guard let interstitial = interstitial else {
-            return nil
-        }
-        
-        let request = GADRequest()
-        
-        // Remove the following line before you upload the app
-        //request.testDevices = [ kGADSimulatorID ]
-        
-        interstitial.load(request)
-        interstitial.delegate = self
-        
-        return interstitial
-    }
-    func interstitialDidReceiveAd(_ ad: GADInterstitial) {
-        
-        print("Interstitial loaded successfully")
-        ad.present(fromRootViewController: self)
-    }
-    func interstitialDidFail(toPresentScreen ad: GADInterstitial) {
-        
-        print("Fail to receive interstitial")
-    }
-    func interstitialDidDismissScreen(_ ad: GADInterstitial) {
-        
-        //interstitial = createAndLoadInterstitial()
-    }
-    
-    //-----------------------------------------------------------------------
-    
-    
-    
+   
     func RegisterUser()
     {
         let Spinner = MBProgressHUD.showAdded(to: self.view, animated: true)
@@ -122,14 +81,6 @@ class SplashViewController: UIViewController,GADInterstitialDelegate {
             
         })
     }
-    
-   
-    func messaging(_ messaging: Messaging, didReceive remoteMessage: MessagingRemoteMessage) {
-        print("Received data message: \(remoteMessage.appData)")
-    }
-    
-    //--------------------------------------- Push Notification module End ---------------------------------------------------------------------------------------------------
-    
     
 
     override func didReceiveMemoryWarning() {

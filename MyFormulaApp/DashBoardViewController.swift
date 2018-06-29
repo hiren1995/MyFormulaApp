@@ -40,13 +40,15 @@ class DashBoardViewController: UIViewController,UICollectionViewDelegate,UIColle
         DashBoardCollectionView.delegate = self
         DashBoardCollectionView.dataSource = self
         
-        
+        interstitial = createAndLoadInterstitial()
         
         loadData()
         
-        interstitial = createAndLoadInterstitial()
-        
         // Do any additional setup after loading the view.
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        
+        //interstitial = createAndLoadInterstitial()
     }
     
     override func viewDidAppear(_ animated: Bool) {
