@@ -40,7 +40,7 @@ class DashBoardViewController: UIViewController,UICollectionViewDelegate,UIColle
         DashBoardCollectionView.delegate = self
         DashBoardCollectionView.dataSource = self
         
-        interstitial = createAndLoadInterstitial()
+        //interstitial = createAndLoadInterstitial()
         
         loadData()
         
@@ -171,6 +171,7 @@ class DashBoardViewController: UIViewController,UICollectionViewDelegate,UIColle
                     Spinner.hide(animated: true)
                     self.DashBoardCollectionView.reloadData()
                     
+                     self.interstitial = self.createAndLoadInterstitial()
                 }
                     
                 else

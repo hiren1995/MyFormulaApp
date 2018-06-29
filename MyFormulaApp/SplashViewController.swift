@@ -11,16 +11,9 @@ import Alamofire
 import SwiftyJSON
 import MBProgressHUD
 
-import UserNotifications
-
-import Firebase
-import FirebaseInstanceID
-import FirebaseMessaging
 
 class SplashViewController: UIViewController{
 
-    var interstitial: GADInterstitial!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
