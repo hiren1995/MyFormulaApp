@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1825AB7020E10E6500C6ACEC /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825AB6F20E10E6500C6ACEC /* AboutUsViewController.swift */; };
+		18350DC820DB6F5700852F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350DC720DB6F5700852F82 /* AppDelegate.swift */; };
+		18350DCD20DB6F5700852F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18350DCB20DB6F5700852F82 /* Main.storyboard */; };
+		18350DCF20DB6F5F00852F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18350DCE20DB6F5F00852F82 /* Assets.xcassets */; };
+		18350DD220DB6F5F00852F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18350DD020DB6F5F00852F82 /* LaunchScreen.storyboard */; };
+		18350DDD20DB6F5F00852F82 /* MyFormulaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350DDC20DB6F5F00852F82 /* MyFormulaAppTests.swift */; };
+		18350DE820DB6F5F00852F82 /* MyFormulaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350DE720DB6F5F00852F82 /* MyFormulaAppUITests.swift */; };
+		18350DF620DB772B00852F82 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350DF520DB772B00852F82 /* SlideViewController.swift */; };
+		18350DF820DB78D200852F82 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350DF720DB78D200852F82 /* MenuViewController.swift */; };
+		18350DFA20DB7A8600852F82 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350DF920DB7A8600852F82 /* DashBoardViewController.swift */; };
+		18350DFC20DB7B4F00852F82 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350DFB20DB7B4F00852F82 /* MenuTableViewCell.swift */; };
+		18350DFF20DB807A00852F82 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350DFE20DB807A00852F82 /* CustomFunctions.swift */; };
+		18350E0120DB809500852F82 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350E0020DB809500852F82 /* Constants.swift */; };
+		18350E0320DB87DC00852F82 /* DashBoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350E0220DB87DC00852F82 /* DashBoardCollectionViewCell.swift */; };
+		18350E0520DBC3EB00852F82 /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350E0420DBC3EB00852F82 /* SubjectViewController.swift */; };
+		18350E0720DBC47200852F82 /* SubjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350E0620DBC47200852F82 /* SubjectTableViewCell.swift */; };
+		18350E0920DBD84000852F82 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350E0820DBD84000852F82 /* PDFViewController.swift */; };
+		18E5B75C20DCF8B600B9B8A2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5B75B20DCF8B500B9B8A2 /* SplashViewController.swift */; };
+		18EA67C820E2621B0082FB7E /* AllTopicsSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA67C720E2621B0082FB7E /* AllTopicsSearchViewController.swift */; };
+		18EC220D20E0B2F6000D3673 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18EC220C20E0B2F6000D3673 /* GoogleService-Info.plist */; };
+		38377F75CDE1EA00FA4EEB91 /* Pods_MyFormulaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D363369B304208EB2140649 /* Pods_MyFormulaAppUITests.framework */; };
+		4233B406E7E185CF50260D24 /* Pods_MyFormulaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB25071A64CE3017D8185ABB /* Pods_MyFormulaApp.framework */; };
+		DD414C4A68A59A88CF25B2CC /* Pods_MyFormulaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8D446E73CFBFCC8446A4C3 /* Pods_MyFormulaAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18350DD920DB6F5F00852F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18350DBC20DB6F5700852F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18350DC320DB6F5700852F82;
+			remoteInfo = MyFormulaApp;
+		};
+		18350DE420DB6F5F00852F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18350DBC20DB6F5700852F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18350DC320DB6F5700852F82;
+			remoteInfo = MyFormulaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D363369B304208EB2140649 /* Pods_MyFormulaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFormulaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825AB6F20E10E6500C6ACEC /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		18350DC420DB6F5700852F82 /* MyFormulaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFormulaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18350DC720DB6F5700852F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18350DCC20DB6F5700852F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18350DCE20DB6F5F00852F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18350DD120DB6F5F00852F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18350DD320DB6F5F00852F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18350DD820DB6F5F00852F82 /* MyFormulaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFormulaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18350DDC20DB6F5F00852F82 /* MyFormulaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFormulaAppTests.swift; sourceTree = "<group>"; };
+		18350DDE20DB6F5F00852F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18350DE320DB6F5F00852F82 /* MyFormulaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFormulaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18350DE720DB6F5F00852F82 /* MyFormulaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFormulaAppUITests.swift; sourceTree = "<group>"; };
+		18350DE920DB6F5F00852F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18350DF520DB772B00852F82 /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		18350DF720DB78D200852F82 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		18350DF920DB7A8600852F82 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		18350DFB20DB7B4F00852F82 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		18350DFE20DB807A00852F82 /* CustomFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFunctions.swift; sourceTree = "<group>"; };
+		18350E0020DB809500852F82 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18350E0220DB87DC00852F82 /* DashBoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		18350E0420DBC3EB00852F82 /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		18350E0620DBC47200852F82 /* SubjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTableViewCell.swift; sourceTree = "<group>"; };
+		18350E0820DBD84000852F82 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		18E5B75B20DCF8B500B9B8A2 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		18EA67C720E2621B0082FB7E /* AllTopicsSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTopicsSearchViewController.swift; sourceTree = "<group>"; };
+		18EC220C20E0B2F6000D3673 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4AB32151518105BA9BD2FE06 /* Pods-MyFormulaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFormulaAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFormulaAppTests/Pods-MyFormulaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		513D7503C808F264C26FF58B /* Pods-MyFormulaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFormulaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFormulaApp/Pods-MyFormulaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		69D3EFE95932BB23D862AD25 /* Pods-MyFormulaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFormulaAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFormulaAppUITests/Pods-MyFormulaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79F299100E05DE68E5C5D573 /* Pods-MyFormulaAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFormulaAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFormulaAppUITests/Pods-MyFormulaAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEDCE46042CF74C896CEA7CD /* Pods-MyFormulaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFormulaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFormulaApp/Pods-MyFormulaApp.release.xcconfig"; sourceTree = "<group>"; };
+		DA8D446E73CFBFCC8446A4C3 /* Pods_MyFormulaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFormulaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E730F0D06EC12ADCC8510145 /* Pods-MyFormulaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFormulaAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFormulaAppTests/Pods-MyFormulaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB25071A64CE3017D8185ABB /* Pods_MyFormulaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFormulaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18350DC120DB6F5700852F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4233B406E7E185CF50260D24 /* Pods_MyFormulaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18350DD520DB6F5F00852F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD414C4A68A59A88CF25B2CC /* Pods_MyFormulaAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18350DE020DB6F5F00852F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38377F75CDE1EA00FA4EEB91 /* Pods_MyFormulaAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18350DBB20DB6F5700852F82 = {
+			isa = PBXGroup;
+			children = (
+				18350DFD20DB805500852F82 /* CustomFiles */,
+				18350DC620DB6F5700852F82 /* MyFormulaApp */,
+				18350DDB20DB6F5F00852F82 /* MyFormulaAppTests */,
+				18350DE620DB6F5F00852F82 /* MyFormulaAppUITests */,
+				18350DC520DB6F5700852F82 /* Products */,
+				6B6A35B391896D53E9FAEE7D /* Pods */,
+				BC692ACAE6F1235E26069BE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18350DC520DB6F5700852F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18350DC420DB6F5700852F82 /* MyFormulaApp.app */,
+				18350DD820DB6F5F00852F82 /* MyFormulaAppTests.xctest */,
+				18350DE320DB6F5F00852F82 /* MyFormulaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18350DC620DB6F5700852F82 /* MyFormulaApp */ = {
+			isa = PBXGroup;
+			children = (
+				18350DC720DB6F5700852F82 /* AppDelegate.swift */,
+				18350DCB20DB6F5700852F82 /* Main.storyboard */,
+				18E5B75B20DCF8B500B9B8A2 /* SplashViewController.swift */,
+				18350DF520DB772B00852F82 /* SlideViewController.swift */,
+				18350DF720DB78D200852F82 /* MenuViewController.swift */,
+				18350DFB20DB7B4F00852F82 /* MenuTableViewCell.swift */,
+				18350DF920DB7A8600852F82 /* DashBoardViewController.swift */,
+				18350E0220DB87DC00852F82 /* DashBoardCollectionViewCell.swift */,
+				18350E0420DBC3EB00852F82 /* SubjectViewController.swift */,
+				18350E0620DBC47200852F82 /* SubjectTableViewCell.swift */,
+				18350E0820DBD84000852F82 /* PDFViewController.swift */,
+				1825AB6F20E10E6500C6ACEC /* AboutUsViewController.swift */,
+				18EA67C720E2621B0082FB7E /* AllTopicsSearchViewController.swift */,
+				18350DCE20DB6F5F00852F82 /* Assets.xcassets */,
+				18350DD020DB6F5F00852F82 /* LaunchScreen.storyboard */,
+				18350DD320DB6F5F00852F82 /* Info.plist */,
+				18EC220C20E0B2F6000D3673 /* GoogleService-Info.plist */,
+			);
+			path = MyFormulaApp;
+			sourceTree = "<group>";
+		};
+		18350DDB20DB6F5F00852F82 /* MyFormulaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18350DDC20DB6F5F00852F82 /* MyFormulaAppTests.swift */,
+				18350DDE20DB6F5F00852F82 /* Info.plist */,
+			);
+			path = MyFormulaAppTests;
+			sourceTree = "<group>";
+		};
+		18350DE620DB6F5F00852F82 /* MyFormulaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18350DE720DB6F5F00852F82 /* MyFormulaAppUITests.swift */,
+				18350DE920DB6F5F00852F82 /* Info.plist */,
+			);
+			path = MyFormulaAppUITests;
+			sourceTree = "<group>";
+		};
+		18350DFD20DB805500852F82 /* CustomFiles */ = {
+			isa = PBXGroup;
+			children = (
+				18350DFE20DB807A00852F82 /* CustomFunctions.swift */,
+				18350E0020DB809500852F82 /* Constants.swift */,
+			);
+			path = CustomFiles;
+			sourceTree = "<group>";
+		};
+		6B6A35B391896D53E9FAEE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				513D7503C808F264C26FF58B /* Pods-MyFormulaApp.debug.xcconfig */,
+				AEDCE46042CF74C896CEA7CD /* Pods-MyFormulaApp.release.xcconfig */,
+				E730F0D06EC12ADCC8510145 /* Pods-MyFormulaAppTests.debug.xcconfig */,
+				4AB32151518105BA9BD2FE06 /* Pods-MyFormulaAppTests.release.xcconfig */,
+				79F299100E05DE68E5C5D573 /* Pods-MyFormulaAppUITests.debug.xcconfig */,
+				69D3EFE95932BB23D862AD25 /* Pods-MyFormulaAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC692ACAE6F1235E26069BE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB25071A64CE3017D8185ABB /* Pods_MyFormulaApp.framework */,
+				DA8D446E73CFBFCC8446A4C3 /* Pods_MyFormulaAppTests.framework */,
+				0D363369B304208EB2140649 /* Pods_MyFormulaAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18350DC320DB6F5700852F82 /* MyFormulaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18350DEC20DB6F5F00852F82 /* Build configuration list for PBXNativeTarget "MyFormulaApp" */;
+			buildPhases = (
+				6E530D9A44F0578CDDF4E830 /* [CP] Check Pods Manifest.lock */,
+				18350DC020DB6F5700852F82 /* Sources */,
+				18350DC120DB6F5700852F82 /* Frameworks */,
+				18350DC220DB6F5700852F82 /* Resources */,
+				AB9656C03DA33F18386DFB84 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFormulaApp;
+			productName = MyFormulaApp;
+			productReference = 18350DC420DB6F5700852F82 /* MyFormulaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18350DD720DB6F5F00852F82 /* MyFormulaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18350DEF20DB6F5F00852F82 /* Build configuration list for PBXNativeTarget "MyFormulaAppTests" */;
+			buildPhases = (
+				EFB3A5145E92496B1219E28E /* [CP] Check Pods Manifest.lock */,
+				18350DD420DB6F5F00852F82 /* Sources */,
+				18350DD520DB6F5F00852F82 /* Frameworks */,
+				18350DD620DB6F5F00852F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18350DDA20DB6F5F00852F82 /* PBXTargetDependency */,
+			);
+			name = MyFormulaAppTests;
+			productName = MyFormulaAppTests;
+			productReference = 18350DD820DB6F5F00852F82 /* MyFormulaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18350DE220DB6F5F00852F82 /* MyFormulaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18350DF220DB6F5F00852F82 /* Build configuration list for PBXNativeTarget "MyFormulaAppUITests" */;
+			buildPhases = (
+				AFEE2D11CBDCB198332318B6 /* [CP] Check Pods Manifest.lock */,
+				18350DDF20DB6F5F00852F82 /* Sources */,
+				18350DE020DB6F5F00852F82 /* Frameworks */,
+				18350DE120DB6F5F00852F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18350DE520DB6F5F00852F82 /* PBXTargetDependency */,
+			);
+			name = MyFormulaAppUITests;
+			productName = MyFormulaAppUITests;
+			productReference = 18350DE320DB6F5F00852F82 /* MyFormulaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18350DBC20DB6F5700852F82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18350DC320DB6F5700852F82 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					18350DD720DB6F5F00852F82 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 18350DC320DB6F5700852F82;
+					};
+					18350DE220DB6F5F00852F82 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 18350DC320DB6F5700852F82;
+					};
+				};
+			};
+			buildConfigurationList = 18350DBF20DB6F5700852F82 /* Build configuration list for PBXProject "MyFormulaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18350DBB20DB6F5700852F82;
+			productRefGroup = 18350DC520DB6F5700852F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18350DC320DB6F5700852F82 /* MyFormulaApp */,
+				18350DD720DB6F5F00852F82 /* MyFormulaAppTests */,
+				18350DE220DB6F5F00852F82 /* MyFormulaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18350DC220DB6F5700852F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18350DD220DB6F5F00852F82 /* LaunchScreen.storyboard in Resources */,
+				18EC220D20E0B2F6000D3673 /* GoogleService-Info.plist in Resources */,
+				18350DCF20DB6F5F00852F82 /* Assets.xcassets in Resources */,
+				18350DCD20DB6F5700852F82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18350DD620DB6F5F00852F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18350DE120DB6F5F00852F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E530D9A44F0578CDDF4E830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFormulaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB9656C03DA33F18386DFB84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyFormulaApp/Pods-MyFormulaApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFormulaApp/Pods-MyFormulaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFEE2D11CBDCB198332318B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFormulaAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB3A5145E92496B1219E28E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFormulaAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18350DC020DB6F5700852F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18350E0720DBC47200852F82 /* SubjectTableViewCell.swift in Sources */,
+				1825AB7020E10E6500C6ACEC /* AboutUsViewController.swift in Sources */,
+				18350E0920DBD84000852F82 /* PDFViewController.swift in Sources */,
+				18350DF620DB772B00852F82 /* SlideViewController.swift in Sources */,
+				18E5B75C20DCF8B600B9B8A2 /* SplashViewController.swift in Sources */,
+				18350E0520DBC3EB00852F82 /* SubjectViewController.swift in Sources */,
+				18EA67C820E2621B0082FB7E /* AllTopicsSearchViewController.swift in Sources */,
+				18350E0320DB87DC00852F82 /* DashBoardCollectionViewCell.swift in Sources */,
+				18350DF820DB78D200852F82 /* MenuViewController.swift in Sources */,
+				18350DC820DB6F5700852F82 /* AppDelegate.swift in Sources */,
+				18350DFA20DB7A8600852F82 /* DashBoardViewController.swift in Sources */,
+				18350E0120DB809500852F82 /* Constants.swift in Sources */,
+				18350DFF20DB807A00852F82 /* CustomFunctions.swift in Sources */,
+				18350DFC20DB7B4F00852F82 /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18350DD420DB6F5F00852F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18350DDD20DB6F5F00852F82 /* MyFormulaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18350DDF20DB6F5F00852F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18350DE820DB6F5F00852F82 /* MyFormulaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18350DDA20DB6F5F00852F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18350DC320DB6F5700852F82 /* MyFormulaApp */;
+			targetProxy = 18350DD920DB6F5F00852F82 /* PBXContainerItemProxy */;
+		};
+		18350DE520DB6F5F00852F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18350DC320DB6F5700852F82 /* MyFormulaApp */;
+			targetProxy = 18350DE420DB6F5F00852F82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18350DCB20DB6F5700852F82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18350DCC20DB6F5700852F82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18350DD020DB6F5F00852F82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18350DD120DB6F5F00852F82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18350DEA20DB6F5F00852F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18350DEB20DB6F5F00852F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18350DED20DB6F5F00852F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513D7503C808F264C26FF58B /* Pods-MyFormulaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NWJFVU6RP;
+				INFOPLIST_FILE = MyFormulaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MyFormulaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18350DEE20DB6F5F00852F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDCE46042CF74C896CEA7CD /* Pods-MyFormulaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NWJFVU6RP;
+				INFOPLIST_FILE = MyFormulaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MyFormulaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18350DF020DB6F5F00852F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E730F0D06EC12ADCC8510145 /* Pods-MyFormulaAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NWJFVU6RP;
+				INFOPLIST_FILE = MyFormulaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MyFormulaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFormulaApp.app/MyFormulaApp";
+			};
+			name = Debug;
+		};
+		18350DF120DB6F5F00852F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB32151518105BA9BD2FE06 /* Pods-MyFormulaAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NWJFVU6RP;
+				INFOPLIST_FILE = MyFormulaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MyFormulaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFormulaApp.app/MyFormulaApp";
+			};
+			name = Release;
+		};
+		18350DF320DB6F5F00852F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F299100E05DE68E5C5D573 /* Pods-MyFormulaAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NWJFVU6RP;
+				INFOPLIST_FILE = MyFormulaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MyFormulaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFormulaApp;
+			};
+			name = Debug;
+		};
+		18350DF420DB6F5F00852F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D3EFE95932BB23D862AD25 /* Pods-MyFormulaAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NWJFVU6RP;
+				INFOPLIST_FILE = MyFormulaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MyFormulaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFormulaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18350DBF20DB6F5700852F82 /* Build configuration list for PBXProject "MyFormulaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18350DEA20DB6F5F00852F82 /* Debug */,
+				18350DEB20DB6F5F00852F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18350DEC20DB6F5F00852F82 /* Build configuration list for PBXNativeTarget "MyFormulaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18350DED20DB6F5F00852F82 /* Debug */,
+				18350DEE20DB6F5F00852F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18350DEF20DB6F5F00852F82 /* Build configuration list for PBXNativeTarget "MyFormulaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18350DF020DB6F5F00852F82 /* Debug */,
+				18350DF120DB6F5F00852F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18350DF220DB6F5F00852F82 /* Build configuration list for PBXNativeTarget "MyFormulaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18350DF320DB6F5F00852F82 /* Debug */,
+				18350DF420DB6F5F00852F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18350DBC20DB6F5700852F82 /* Project object */;
+}

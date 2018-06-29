@@ -1,0 +1,6 @@
+framework module Pods_MyFormulaApp {
+  umbrella header "Pods-MyFormulaApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
